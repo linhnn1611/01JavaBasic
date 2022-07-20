@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/Users/nguyennhatlinh/Downloads/06_AutoationProject/03Pratices/02JavaBasic/src/day1/.metadata/.plugins/org.eclipse.jdt.core
