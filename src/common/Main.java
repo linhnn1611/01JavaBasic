@@ -13,7 +13,8 @@ public class Main {
 		DataTypeAndVariable.doExcercise4();
 		DataTypeAndVariable.doExcercise6();
 		DataTypeAndVariable.doExcercise7();
-
+		DataTypeAndVariable.doExcercise22();
+		DataTypeAndVariable.doExcercise32();
 	}
 
 }
