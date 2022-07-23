@@ -59,11 +59,20 @@ public class DataTypeAndVariable {
 	}
 	public static void doExcercise22()
 	{
-		int m=2500, h=5, ph=56, s=23;
-		float time=h*3600+ph*60+s;
-		double a=(m/1000/time/3600);
-		double b=(m/1609/time/3600);
-		System.out.println("Your speed in meters/second is:" + (m/time));
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Input distance in meters:");
+		int m=scan.nextInt();
+		System.out.println("Input hour:");
+		int h=scan.nextInt();
+		System.out.println("Input minutes:");
+		int ph=scan.nextInt();
+		System.out.println("Input seconds:");
+		int s=scan.nextInt();
+		float time=(h*3600)+(ph*60)+s;
+		float c= (float)(m/time);
+		float a= (float)((m/1000)/(time/3600));
+		float b= (float)((m/1609)/(time/3600));
+		System.out.println("Your speed in meters/second is:" + c);
 		System.out.println("Your speed in km/h is:" + a);
 		System.out.println("Your speed in miles/h is:" + b);
 	}
@@ -75,10 +84,22 @@ public class DataTypeAndVariable {
 		System.out.println("Product of two integers:" + (a*b));
 		System.out.println("Average of two integers:"+ ((a+b)/2));
 		System.out.println("Distance of two integers:" + Math.abs(a-b));
-		System.out.println("Distance of two integers:" + Math.max(a,b));
-		System.out.println("Distance of two integers:" + Math.min(a,b));
+		System.out.println("Max of two integers:" + Math.max(a,b));
+		System.out.println("Min of two integers:" + Math.min(a,b));
 	}
-	
+	public static void doExcercise42()
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Input six non-negative digits:");
+		int n=scan.nextInt();
+		int a=n/100000;
+		int b=(n%100000)/10000;
+		int c=(n%10000)/1000;
+		int d=(n%1000)/100;
+		int e=(n%100)/10;
+		int f=n%10;
+		System.out.println(a+ " " +b +" " +c+ " " +d+" " +e+" " +f);
+	}
 	
 
 
