@@ -1,7 +1,10 @@
 package common;
 
 // import day1.DataTypeAndVariable;
-import day1.DecisionMaking;
+//import day1.DecisionMaking;
+//import day3.Array;
+//import day3.Switch;
+import day3.Loop;
 
 public class Main {
 
@@ -24,7 +27,14 @@ public class Main {
 //		DataTypeAndVariable.doExcercise42();
 //		DecisionMaking.doExcercise1a();
 //		DecisionMaking.doExcercise1b();
-		DecisionMaking.doExcercise2();
+//		DecisionMaking.doExcercise2();
+//		Array.doExcercise1();
+//		Switch.doExcercise1();
+//		Switch.doExcercise2();
+//		Loop.doExcercise1();
+//		Loop.doExcercise2();
+//		Loop.doExcercise3();
+		Loop.doExcercise4();
 	}
 
 }
