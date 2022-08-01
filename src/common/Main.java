@@ -3,11 +3,13 @@ package common;
 import java.util.Scanner;
 
 import day3.Array;
+import day3.Homework;
 // import day1.DataTypeAndVariable;
 //import day1.DecisionMaking;
 //import day3.Array;
 //import day3.Switch;
 import day3.Loop;
+import day5HW.JavaBasic;
 
 public class Main {
 
@@ -72,7 +74,14 @@ public class Main {
 // bai 8 trong lopps
 //		Loop.SquareBoard(5);
 //bai 10 trong loops
-		Loop.timKiemKyTu();
+//		Loop.timKiemKyTu();
+//		Homework.doEx1();
+//		Homework.doEx2();
+//		Homework.doEx4();
+// bai tap trong day 5
+//		JavaBasic.doEx1();
+//		JavaBasic.doEx2();
+		
 	}
 
 }
