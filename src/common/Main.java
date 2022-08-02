@@ -83,7 +83,11 @@ public class Main {
 //		JavaBasic.doEx2();
 //		JavaBasic.doEx4();
 //		JavaBasic.doEx5();
-		JavaBasic.doEx6();
+//		JavaBasic.doEx6();
+//		JavaBasic.doEx7();
+//		JavaBasic.doEx8();
+//		JavaBasic.doEx9();
+		JavaBasic.doEx10();
 	}
 
 }

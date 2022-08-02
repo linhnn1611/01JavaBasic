@@ -69,4 +69,70 @@ public class JavaBasic {
 		}
 		System.out.println(s);
 	}
+	public static void doEx7()
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Nhap chuoi s1: ");
+		String s1=scan.next();
+		System.out.println("Nhap chuoi s2: ");
+		String s2=scan.next();
+		if(s1.equals(s2))
+		{
+			System.out.println("TC passed");
+		} else
+		{
+			System.out.println("TC failed");
+		}
+	}
+	public static void doEx8()
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Your : ");
+		int age=scan.nextInt();
+		if(age>=18)
+		{
+			System.out.println("You are eligible to vote");
+		} else
+		{
+			System.out.println("You are not eligible to vote");
+		}
+	}
+	public static void doEx9()
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter number: ");
+		int a=scan.nextInt();
+		if(a%2==0)
+		{
+			System.out.println("The number is an even number");
+		} else
+		{
+			System.out.println("The number is an odd number");
+		}
+	}
+	public static void doEx10()
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter quiz: ");
+		int q=scan.nextInt();
+		System.out.println("Enter mid-term: ");
+		int mt=scan.nextInt();
+		System.out.println("Enter final scores: ");
+		int fs=scan.nextInt();
+		float avg=(float)((q+mt+fs)/3);
+		if(avg>=90)
+		{
+		System.out.println("Your grade is A");
+		}else if(avg<90 && avg>=70)
+		{
+		System.out.println("Your grade is B");
+		}else if(avg<70 && avg>=50)
+		{
+		System.out.println("Your grade is C");
+		}else
+		{
+		System.out.println("Your grade is D");
+		}
+	}
+	
 }
