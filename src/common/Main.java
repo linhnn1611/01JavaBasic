@@ -81,7 +81,9 @@ public class Main {
 // bai tap trong day 5
 //		JavaBasic.doEx1();
 //		JavaBasic.doEx2();
-		
+//		JavaBasic.doEx4();
+//		JavaBasic.doEx5();
+		JavaBasic.doEx6();
 	}
 
 }
