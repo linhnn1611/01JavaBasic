@@ -54,20 +54,9 @@ public class JavaBasic {
 	}
 	public static void doEx6()
 	{
-		String [] s={"Welcome to Java Basic"};
-		String count = "_";
-		for (int i=0; i<s.length-1;i++)
-		{
-			if (s[i]==" ")
-			{
-				s[i]=count;
-			}
-			if (i==s.length)
-			{
-				s[i]="";
-			}
-		}
-		System.out.println(s);
+		String s="Welcome to Java Basic ";
+		String s1=s.trim().replace(" ", "_");
+		System.out.println(s1);
 	}
 	public static void doEx7()
 	{
@@ -115,10 +104,22 @@ public class JavaBasic {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter quiz: ");
 		int q=scan.nextInt();
+		while (q<0||q>100)
+		{
+			System.out.println("Enter quiz again: ");
+		}
 		System.out.println("Enter mid-term: ");
 		int mt=scan.nextInt();
+		while (mt<0||mt>100)
+		{
+			System.out.println("Enter mid-term again: ");
+		}
 		System.out.println("Enter final scores: ");
 		int fs=scan.nextInt();
+		while (fs<0||fs>100)
+		{
+			System.out.println("Enter final scores again: ");
+		}
 		float avg=(float)((q+mt+fs)/3);
 		if(avg>=90)
 		{
@@ -131,7 +132,7 @@ public class JavaBasic {
 		System.out.println("Your grade is C");
 		}else
 		{
-		System.out.println("Your grade is D");
+		System.out.println("Your grade is F");
 		}
 	}
 	
