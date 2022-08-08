@@ -135,5 +135,108 @@ public class JavaBasic {
 		System.out.println("Your grade is F");
 		}
 	}
-	
+	public static void doEx11()
+	{
+		int price=25;
+		System.out.println("The price: " +price);
+		Scanner scan= new Scanner(System.in);
+		System.out.println("Enter quantily: ");
+		int quantily=scan.nextInt();
+		if(quantily<0)
+		{
+			System.out.println("Enter quantily again: ");
+		}else if (quantily>0&&quantily<=100)
+		{
+			//int price =25;
+			float revenue=(float) (price*quantily);
+			System.out.println("The revenue from sale: " + revenue+"$");
+			System.out.println("After discount: 0%");
+		}else if (quantily>100&&quantily<=120)
+		{
+			//int price =25;
+			float revenue=(float) (price*quantily*0.9);
+			System.out.println("The revenue from sale: " + revenue +"$");
+			System.out.println("After discount: "+ (float)(price*quantily*0.1)+ "(10%)");
+		}else
+		{
+			//int price =25;
+			float revenue=(float) (price*quantily*0.85);
+			System.out.println("The revenue from sale: " + revenue+"$");
+			System.out.println("After discount: "+ (float)(price*quantily*0.15)+"(15%)");
+		}
+	}
+	public static void doEx12()
+	{
+		Scanner scan= new Scanner(System.in);
+		System.out.print("Enter: ");
+		String a=scan.next();
+		switch (a) {
+		case "0":
+			System.out.println("The number enter: "+a);
+			break;
+		case "1":
+			System.out.println("The number enter: "+a);
+			break;
+		case "2":
+			System.out.println("The number enter: "+a);
+			break;
+		case "3":
+			System.out.println("The number enter: "+a);
+			break;
+		case "4":
+			System.out.println("The number enter: "+a);
+			break;
+		case "5":
+			System.out.println("The number enter: "+a);
+			break;
+		case "6":
+			System.out.println("The number enter: "+a);
+			break;
+		case "7":
+			System.out.println("The number enter: "+a);
+			break;
+		case "8":
+			System.out.println("The number enter: "+a);
+			break;
+		case "9":
+			System.out.println("The number enter: "+a);
+			break;
+		default:
+			System.out.println("Not allowed");
+			break;
+		}
+	}
+	public static void doEx13()
+	{
+		Scanner scan=new Scanner(System.in);
+		String a="a. int 1x=10";
+		String b="b. int x=10";
+		String c="c. float x=10.0f";
+		String d="d. string x=\"10\"";
+		System.out.println("What is the correct way to declare a variable to store an integer value in Java?");
+		System.out.println(a+"\n"+b+"\n"+c+"\n"+d);
+		System.out.print("Enter your choice:");
+		String ans=scan.next();
+		switch (ans) {
+		case "a":
+			System.out.println("Invalid choice");
+			break;
+		case "b":
+			System.out.println("Congratulation");
+			break;
+		case "c":
+			System.out.println("Invalid choice");
+			break;
+		case "d":
+			System.out.println("Invalid choice");
+			break;
+		default:
+			System.out.println("Bad choice!");
+			break;
+		}
+	}
+	public static void doEx14()
+	{
+		
+	}
 }

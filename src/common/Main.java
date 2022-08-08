@@ -73,7 +73,7 @@ public class Main {
 //		Array.arrayToString(b);
 // bai 8 trong lopps
 //		Loop.SquareBoard("#");
-		Loop.CheckerBoard("#");
+//		Loop.CheckerBoard("#");
 //bai 10 trong loops
 //		Loop.timKiemKyTu();
 //		Homework.doEx1();
@@ -89,6 +89,9 @@ public class Main {
 //		JavaBasic.doEx8();
 //		JavaBasic.doEx9();
 //		JavaBasic.doEx10();
+//		JavaBasic.doEx11();
+//		JavaBasic.doEx12();
+		JavaBasic.doEx13();
 	}
 
 }

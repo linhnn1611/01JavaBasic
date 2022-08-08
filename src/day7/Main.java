@@ -86,36 +86,34 @@ public class Main {
 	//	WebDriver driver=new ChromeDriver();
 	//}
 	//public static void checkBox()
-	//{
-	//	WebDriver driver=new ChromeDriver();
 		driver.findElement(By.xpath("//span[text()='Check Box']")).click();
 		driver.findElement(By.xpath("//body/div[@id='app']/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/ol[1]/li[1]/span[1]/label[1]/span[1]/*[1]")).click();
-//		String a1=driver.findElement(By.xpath("//span[contains(text(),'You have selected :')]")).getText();
-//		String a2=driver.findElement(By.xpath("//span[contains(text(),'home')]")).getText();
-//		String a3=driver.findElement(By.xpath("//span[contains(text(),'desktop')]")).getText();
-//		String a4=driver.findElement(By.xpath("//span[contains(text(),'notes')]")).getText();
-//		String a5=driver.findElement(By.xpath("//span[contains(text(),'commands')]")).getText();
-//		String a6=driver.findElement(By.xpath("//span[contains(text(),'documents')]")).getText();
-//		String a7=driver.findElement(By.xpath("//span[contains(text(),'workspace')]")).getText();
-//		String a8=driver.findElement(By.xpath("//span[contains(text(),'react')]")).getText();
-//		String a9=driver.findElement(By.xpath("//span[contains(text(),'angular')]")).getText();
-//		String a10=driver.findElement(By.xpath("//span[contains(text(),'veu')]")).getText();
-//		String a11=driver.findElement(By.xpath("//span[contains(text(),'office')]")).getText();
-//		String a12=driver.findElement(By.xpath("//span[contains(text(),'public')]")).getText();
-//		String a13=driver.findElement(By.xpath("//span[contains(text(),'private')]")).getText();
-//		String a14=driver.findElement(By.xpath("//span[contains(text(),'classified')]")).getText();
-//		String a15=driver.findElement(By.xpath("//span[contains(text(),'general')]")).getText();
-//		String a16=driver.findElement(By.xpath("//span[contains(text(),'downloads')]")).getText();
-//		String a17=driver.findElement(By.xpath("//span[contains(text(),'wordFile')]")).getText();
-//		String a18=driver.findElement(By.xpath("//span[contains(text(),'excelFile')]")).getText();
-//		String a=a1.concat(" ").concat(a2).concat(" ").concat(a3).concat(" ").concat(a4).concat(" ").concat(a5).concat(" ").concat(a6).concat(" ").concat(a7).concat(" ").concat(a8).concat(" ").concat(a9).concat(" ").concat(a10).concat(" ").concat(a11).concat(" ").concat(a12).concat(" ").concat(a13).concat(" ").concat(a14).concat(" ").concat(a15).concat(" ").concat(a16).concat(" ").concat(a17).concat(" ").concat(a18);
-//		System.out.println(a);
-//		String b="You have selected : home desktop notes commands documents workspace react angular veu office public private classified general downloads wordFile excelFile";
-//		if (a.equals(b))
-//		{
-//			System.out.println("Pass");
-//		}else 
-//			{System.out.println("Fail");}
+		String a1=driver.findElement(By.xpath("//span[contains(text(),'You have selected :')]")).getText();
+		String a2=driver.findElement(By.xpath("//span[contains(text(),'home')]")).getText();
+		String a3=driver.findElement(By.xpath("//span[contains(text(),'desktop')]")).getText();
+		String a4=driver.findElement(By.xpath("//span[contains(text(),'notes')]")).getText();
+		String a5=driver.findElement(By.xpath("//span[contains(text(),'commands')]")).getText();
+		String a6=driver.findElement(By.xpath("//span[contains(text(),'documents')]")).getText();
+		String a7=driver.findElement(By.xpath("//span[contains(text(),'workspace')]")).getText();
+		String a8=driver.findElement(By.xpath("//span[contains(text(),'react')]")).getText();
+		String a9=driver.findElement(By.xpath("//span[contains(text(),'angular')]")).getText();
+		String a10=driver.findElement(By.xpath("//span[contains(text(),'veu')]")).getText();
+		String a11=driver.findElement(By.xpath("//span[contains(text(),'office')]")).getText();
+		String a12=driver.findElement(By.xpath("//span[contains(text(),'public')]")).getText();
+		String a13=driver.findElement(By.xpath("//span[contains(text(),'private')]")).getText();
+		String a14=driver.findElement(By.xpath("//span[contains(text(),'classified')]")).getText();
+		String a15=driver.findElement(By.xpath("//span[contains(text(),'general')]")).getText();
+		String a16=driver.findElement(By.xpath("//span[contains(text(),'downloads')]")).getText();
+		String a17=driver.findElement(By.xpath("//span[contains(text(),'wordFile')]")).getText();
+		String a18=driver.findElement(By.xpath("//span[contains(text(),'excelFile')]")).getText();
+		String a=a1.concat(" ").concat(a2).concat(" ").concat(a3).concat(" ").concat(a4).concat(" ").concat(a5).concat(" ").concat(a6).concat(" ").concat(a7).concat(" ").concat(a8).concat(" ").concat(a9).concat(" ").concat(a10).concat(" ").concat(a11).concat(" ").concat(a12).concat(" ").concat(a13).concat(" ").concat(a14).concat(" ").concat(a15).concat(" ").concat(a16).concat(" ").concat(a17).concat(" ").concat(a18);
+		System.out.println(a);
+		String b="You have selected : home desktop notes commands documents workspace react angular veu office public private classified general downloads wordFile excelFile";
+		if (a.equals(b))
+		{
+			System.out.println("Pass");
+		}else 
+			{System.out.println("Fail");}
 		driver.findElement(By.xpath("//body/div[@id='app']/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/ol[1]/li[1]/span[1]/button[1]/*[1]")).click();
 		String s1= driver.findElement(By.xpath("//svg[text()='rct-icon-check']")).getText();
 		System.out.println(s1);
