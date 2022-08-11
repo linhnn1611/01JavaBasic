@@ -235,8 +235,26 @@ public class JavaBasic {
 			break;
 		}
 	}
-	public static void doEx14()
+	public static void doEx14(String input)
 	{
-		
+		int i,j;
+		for (i=0;i<=6; i++)
+		{
+			for (j=6;j>=i;j--)
+			System.out.print(input);
+			System.out.println("");
+		}
+	}
+	public static void doEx15()
+	{
+		int i,j,k;
+		for (i=1;i<=7;i++)
+		{
+			for (j=1;j<i;j++)
+				System.out.print(j);
+			for (k=7-i;k>=1;k--)
+				System.out.print("*");
+				System.out.println("");
+		}
 	}
 }

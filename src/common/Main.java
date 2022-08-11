@@ -91,7 +91,9 @@ public class Main {
 //		JavaBasic.doEx10();
 //		JavaBasic.doEx11();
 //		JavaBasic.doEx12();
-		JavaBasic.doEx13();
+//		JavaBasic.doEx13();
+//		JavaBasic.doEx14("*");
+		JavaBasic.doEx15();
 	}
 
 }
