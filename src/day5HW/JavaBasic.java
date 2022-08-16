@@ -257,15 +257,14 @@ public class JavaBasic {
 	}
 
 	public static void doEx19() {
-		int i=1,count=0;
+		int i = 1, count = 0;
 		do {
 			System.out.print((char) i);
 			i++;
-			count ++;
-			if (count == 10)
-			{
-			System.out.println();
-			count=0;
+			count++;
+			if (count == 10) {
+				System.out.println();
+				count = 0;
 			}
 		} while (i <= 122);
 	}
